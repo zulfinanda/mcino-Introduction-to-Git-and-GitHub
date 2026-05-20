@@ -1,0 +1,4 @@
+theia@theia-dianzulfinan:/home/project/mcino-Introduction-to-Git-and-GitHub$ git branch -vv  
+  bug-fix-revert 81ef564 Revert "bug fix typo" This reverts commit 37bc2d4bf6a00a86ca2fcbb0f7581f68f14c2c59.
+  bug-fix-typo   e4d8299 [origin/bug-fix-typo] update readme.md
+* main 39af44e [origin/main] add bug-fix-revert
