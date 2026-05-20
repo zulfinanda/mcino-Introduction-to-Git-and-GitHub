@@ -1,9 +1,3 @@
-$ curl -s 
-https://api.github.com/repos/zulfinanda/mcino-Introduction-to 
--Git-and-GitHub | jq -r '.parent.clone_url' 
-https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.git 
-theia@theia-dian$ curl -s 
-https://api.github.com/repos/zulfinanda/mcino-Introduction-to-Git-and-GitHub
-| jq '.full_name, .parent.full_name' 
-"zulfinanda/mcino-Introduction-to-Git-and-GitHub" 
-"ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+$ curl -s https://api.github.com/repos/zulfinanda/mcino-Introduction-to
+-Git-and-GitHub | jq -r '.parent.clone_url'
+https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.git
