@@ -1,2 +1,22 @@
+$ git revert 37bc2d4bf6a00a86ca2fcbb0f7581f68f14c2c59
+[bug-fix-revert 81ef564] Revert "bug fix typo" This reverts commit 37bc2d4bf6a00a86ca2fcbb0f7581f68f14c2c59.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+theia@theia-dianzulfinan:/home/project/mcino-Introduction-to-G
+it-and-GitHub$ git push origin bug-fix-revert
+Username for 'https://github.com': zulfinanda
+Password for 'https://zulfinanda@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 334 bytes | 334.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote: 
+remote: Create a pull request for 'bug-fix-revert' on GitHub by visiting:
+remote:      https://github.com/zulfinanda/mcino-Introduction-to-Git-and-GitHub/pull/new/bug-fix-revert
+remote: 
+To https://github.com/zulfinanda/mcino-Introduction-to-Git-and-GitHub.git
+ * [new branch]      bug-fix-revert -> bug-fix-revert
 $ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/7823 | jq -r '.head.repo.clone_url'
 https://github.com/zulfinanda/mcino-Introduction-to-Git-and-GitHub.git
